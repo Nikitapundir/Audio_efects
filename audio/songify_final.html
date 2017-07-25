@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>songnify</title>
+ <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--font awesome -->
+ <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"> <!--search bar-->
+<link rel="stylesheet" type="text/css" href="main1.css"> <!--css file-->
+<link rel="stylesheet" type="text/css" href="loading_img.css">
+</head>
+<body>
+<section id="sect1" style="width:1200px;">
+	<h1 >Welcome to songify</h1>
+	<h2>Enter the name of the song</h1>
+	<input  type="text" placeholder="Name">
+	<button type="submit" id="but1" >Go</button>
+</section>
+ <div class ="main hidden">
+<header> <div class="right user-name" id="p1" ></div></header>
+<section class="content">
+<audio src="" ></audio>
+<table id="songs" style="margin-left:50px;">
+  <thead class ="list-headers"> <!-- table -->
+    <td>Title</td>
+	<td>Artist</td>
+	<td>Album</td>
+	<td>Duration</td>
+  </thead>
+  <tbody>
+	<tr class="song" id="song1">
+		<td class="song-name"></td>
+		<td class="song-artist"></td>
+		<td class="song-album"></td>
+		<td class="song-length"></td>
+		
+	</tr>
+	<tr class="song" id="song2">
+		<td class="song-name"></td>
+		<td class="song-artist"></td>
+		<td class="song-album"></td>
+		<td class="song-length"></td>
+		
+	</tr>
+	<tr class="song" id="song3">
+		<td class="song-name"></td>
+		<td class="song-artist"></td>
+		<td class="song-album"></td>
+		<td class="song-length"></td>
+		
+	</tr>
+	<tr class="song" id="song4">
+		<td class="song-name"></td>
+		<td class="song-artist"></td>
+		<td class="song-album"></td>
+		<td class="song-length"></td>
+		
+	</tr>
+	</tbody>
+</table>
+	<div id="demo">
+		<img src="img/th.jpg">
+		<img src="img/All.jpg">
+		<img src="img/badri.jpg">
+		<img src="img/tamma.jpg">
+	</div>
+	<div><img src="" class="current-song-image"></div>
+	<div class="current-song-name"></div>
+	<div class="current-song-album"></div>
+	
+</section>
+<footer>
+                <div class="controls">
+                    <div class="player-buttons">
+                        <i class="fa fa-play click play-icon" aria-hidden="true"></i> <!--Font awesome icon-->
+						</div>
+                    <div class="progress-wrapper">
+					<span class ="time-elapsed"></span>
+				<div class="player-progress">
+				    <div class="progress-filled"></div>
+                    </div>
+				<span class="song-duration"></span>
+				</div>
+				
+				
+                
+            </footer></div>
+
+
+<!-- <script src="jquery.js"></script>--> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script src="EzFade.js"></script>
+<script src="main.js"></script> 
+</body>
+</html>
+
